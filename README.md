@@ -1,7 +1,7 @@
 # Watershed pipeline for SNVs (WDL implementation)
 ## Description of inputs:
 * __`File cadd_anno_header`__: File containing VCF header lines describing the annotations.
-  * See the [VCF 4.2 specicification](https://samtools.github.io/hts-specs/VCFv4.2.pdf) for full details.
+  * See the [VCF 4.2 specification](https://samtools.github.io/hts-specs/VCFv4.2.pdf) for full details.
   * For example, one line could be: `##INFO=<ID=SIFTval,Number=1,Type=String,Description="SIFT score">`
   * It is best to set `Type=String` to be robust to missing values which are coded in unpredictable formats.
 * __`File cadd_cache`__: CADD annotations in tabular format.
