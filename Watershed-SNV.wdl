@@ -14,6 +14,11 @@ workflow Watershed_SNV {
     memory_gb: "GB of memory to allocate. Recommended: at least 4GB per core."
     disk_gb: "Requested disk space (in GB)."
   }
+
+  meta {
+    author: "Paul Hanson"
+    email: "phanson@broadinstitute.org"
+  }
 }
 
 task annotate {
